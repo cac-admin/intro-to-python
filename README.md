@@ -1,10 +1,15 @@
 # Introduction to Python
 
 [![Binder](http://mybinder.org/badge_logo.svg)](http://mybinder.org/v2/gh/cac-admin/intro-to-python/HEAD)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cac-admin/intro-to-python/blob/main/)
 
 ## Opening this repo in Binder
 
 The easiest way to get started is by using Binder, an online JupyterHub environment. Follow the `launch binder` badge at the top of this file.
+
+## Opening in Google Colab
+
+You can also open the Jupyter notebooks in Google Colab. Follow the badge at the top of this file.
 
 ## Using this repo on your computer
 
