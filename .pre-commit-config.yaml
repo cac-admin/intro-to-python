@@ -6,6 +6,7 @@ repos:
       # Compile requirements
       - id: pip-compile
         args: [pyproject.toml, -o, requirements.txt]
+        files: ^uv.lock$
 
   - repo: local
     hooks:
