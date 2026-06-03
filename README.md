@@ -28,9 +28,11 @@ Install [uv](https://docs.astral.sh/uv/getting-started/installation/), then sync
 uv sync
 ```
 
-Run the sample script or open the workshop notebook:
+Run the sample script or open a workshop notebook:
 
 ```bash
 uv run python main.py
-uv run jupyter notebook interactive.ipynb
+uv run jupyter notebook notebooks/python_basics.ipynb
 ```
+
+Lesson text for readers is generated under `markdown/` from the notebooks in `notebooks/`.

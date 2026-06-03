@@ -6,3 +6,12 @@ repos:
       # Compile requirements
       - id: pip-compile
         args: [pyproject.toml, -o, requirements.txt]
+
+  - repo: local
+    hooks:
+      - id: notebooks-to-markdown
+        name: Convert workshop notebooks to markdown
+        entry: uv run python scripts/notebooks_to_markdown.py
+        language: system
+        files: ^notebooks/(python_basics|using_packages)\.ipynb$
+        pass_filenames: true
